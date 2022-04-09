@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 
 contract MyToken is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, ERC20Permit, ERC20Votes, ERC20FlashMint {
-    constructor() ERC20("ElonSpliff", "ESP") ERC20Permit("ElonSpliff") {}
+    constructor() ERC20("ElonLit", "ELIT") ERC20Permit("ElonLit") {}
 
     function snapshot() public onlyOwner {
         _snapshot();
